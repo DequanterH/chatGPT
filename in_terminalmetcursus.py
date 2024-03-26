@@ -6,7 +6,7 @@ curses.curs_set(0)  # Verberg de cursor
 stdscr.keypad(True)  # Zet de keypad-modus aan
 
 # Schermgrootte
-HEIGHT, WIDTH = 20, 20
+HEIGHT, WIDTH = 10, 10
 
 # Tekens voor het mannetje en de lege ruimte
 CHARACTER = 'M'
