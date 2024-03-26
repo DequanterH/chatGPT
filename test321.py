@@ -17,7 +17,7 @@ BLUE = (0, 0, 255)
 recognizer = sr.Recognizer()
 
 # Teken het mannetje
-character = pygame.Rect(180, 180, 40, 40)
+character = pygame.Rect(100, 100, 30, 30)
 
 # Oneindige lus voor continu opnemen van audio
 running = True
