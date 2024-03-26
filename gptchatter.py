@@ -20,7 +20,7 @@ import xml.etree.ElementTree as ET
 import html
 from bs4 import BeautifulSoup
 import re
-from icalendar import Calendar
+from icalendar import Calend
 import json
 warnings.filterwarnings("ignore")
 import random
