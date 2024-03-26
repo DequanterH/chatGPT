@@ -1,4 +1,5 @@
 import curses
+import time
 
 # Initialiseren van de curses module
 stdscr = curses.initscr()
@@ -47,6 +48,6 @@ while True:
     elif key == ord('q'):
         break  # Stop de loop als de gebruiker 'q' indrukt
 
-# Beëindig curses
+
 curses.endwin()
 
