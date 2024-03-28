@@ -64,8 +64,7 @@ while True:
             character_x = max(0, character_x - 1)
         elif text == "naar rechts":
             character_x = min(WIDTH - 1, character_x + 1)
-        elif text != "naar links":
-            time.sleep(1)
+
 
         
     except sr.UnknownValueError:
