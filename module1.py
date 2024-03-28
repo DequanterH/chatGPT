@@ -5,7 +5,7 @@ import time
 button_pin_1 = 17
 button_pin_2 = 22
 button_pin_3 = 23
-button_pin_3 = 27
+button_pin_4 = 27
 
 
 # Maak Button-objecten voor elke knop
